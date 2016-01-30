@@ -34,8 +34,6 @@ class Solution(object):
             return True
         elif length==1:
             return True
-        elif length==2:
-            return head.val == head.next.val
 
         #reverse the linked list first, then compare
         prev = None
